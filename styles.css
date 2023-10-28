@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(61, 57, 57);
+    margin: 0;
+}
+
+header {
+
+    background-color: #a67b6a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+.Titulo {
+    color:  white;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.barra {
+    margin-left: auto;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+   
+}
+
+nav li {
+    margin-right: 15px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: white; 
+}
+
+
+
+
+
+
+
