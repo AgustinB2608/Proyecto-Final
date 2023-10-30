@@ -45,6 +45,63 @@ nav a {
     color: white; 
 }
 
+#botonCotizacion{
+    background-color: #0ebb36;
+    width: 120px;
+    border: #000000;
+    color: white;
+}
+
+.imagenCotizacion{
+    width: 800px;
+    height: 160px;
+    padding: 10px;
+    align-items: flex-end;
+    margin-left: 180px;
+}
+
+.solicitarCotizacion {
+    border: whitesmoke;
+    display: flex;
+
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color:#c59886 ;
+    align-items: center;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#a78c82; 
+}
+
+.tituloCatalogo {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.fila {
+    display: flex;
+}
+
+.item {
+    width: (33.33% - 20px); /* Para que haya 3 fotos en una fila */
+    margin: 10px;
+    background-color:#c59886;
+    padding: 20px;
+    text-align: center;
+    margin-left: 120px;
+
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
 
 
 
