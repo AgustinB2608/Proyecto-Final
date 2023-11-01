@@ -10,40 +10,46 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
-
+    height: 70px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .Titulo {
-    color:  white;
+    color: #ffffff;
+    justify-content: center ;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #75625b;
+}
+
+.logo {
+    display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 15px;
 }
 
 .logo img {
-    width: 50px;
-}
-
-.barra {
-    margin-left: auto;
-    margin: 0;
-}
-
-nav ul {
-    list-style: none; 
-    display: flex; 
-   
-}
-
-nav li {
-    margin-right: 15px; 
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    margin-right: 10px;
 }
 
 nav a {
-    text-decoration: none; 
-    color: white; 
+    font-weight: 500;
+    padding-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);   
 }
+
+nav a:hover{
+    color: #000000;
+}
+
 
 #botonCotizacion{
     background-color: #0ebb36;
@@ -103,8 +109,16 @@ nav a {
     height: auto;
 }
 
-
-
+footer {
+    background-color: #414141;
+    color: #000000;
+    text-align: center;
+    height: 120px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #f59393;
+}
 
 
 
