@@ -80,8 +80,8 @@ nav a:hover{
 
 
 .catalogo {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     justify-content: space-between;
     background-color:#a78c82; 
 }
@@ -122,5 +122,90 @@ footer {
     border: 2px solid #f59393;
 }
 
+.sobreNosotros{
+    border: whitesmoke;
+    display: flex;
+    padding: 20px;
+    background-color:#c59886 ;
+    align-items: center;
+}
+
+.tituloSobreNosotros{
+    text-align: center; 
+    font-size: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+    color: rgb(51, 49, 49);
+
+}
+.imagenYTextoSobreNosotros{
+    display: flex;
+    align-content: center;
+}
+
+.imagenSobreNosotros{
+    width: 300px;
+    height: auto;
+ }
+.textoSobreNosotros{
+    padding: 30px; 
+    margin-left: 20px; 
+    color: black;
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+
+/* .formularioYImagenContactos{
+    display: flex;
+     align-content: center; 
+    padding: 20px;
+    align-items: center;
+    border: whitesmoke;
+    background-color:#c59886 ;
+} */
+.formilarioYImagenContactos{
+    border: whitesmoke;
+    display: flex;
+    /* align-content: center; */
+    padding: 60px;
+    align-items:center;
+    border: whitesmoke;
+    background-color:#c59886 ;
+}
+
+.formulario{
+
+    width: 700px;
+    height: 450px;
+    background-color:rgb(243, 221, 188);
+    border: 1px solid black;
+    margin-left: 40px;
+
+}
+.formulario > h3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.itemForm{
+    margin: 20px;
+}
+
+#comentario{
+    width: 600px;
+    height: 120px;
+    margin-left: 50px;
+}
+
+
+
+.imagenContactos{
+    width: 400px;
+    height: 600px;
+    margin-left: 50px;
+    background-color: black;
+    
+}
 
 
