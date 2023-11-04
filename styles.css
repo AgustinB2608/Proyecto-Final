@@ -82,7 +82,7 @@ nav a:hover{
 }
 
 .leyenda{
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
     top: 40px;
     left: 200px;
@@ -141,7 +141,7 @@ footer {
     border: whitesmoke;
     display: flex;
     padding: 20px;
-    background-color:#c59886 ;
+    background-color: white;
     align-items: center;
 }
 
@@ -166,7 +166,7 @@ footer {
     padding: 30px; 
     margin-left: 20px; 
     color: black;
-    background-color: whitesmoke;
+    background-color: white;
     font-size: 16px;
 }
 
