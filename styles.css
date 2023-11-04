@@ -101,7 +101,13 @@ nav a:hover{
     margin-bottom: 20px;
     align-items: center;
 }
+.carouselSec{
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    align-items: center;
 
+}
 .carousel slide{
     width: 1350px;
     height: 500px;
@@ -221,6 +227,26 @@ footer {
     margin-left: 50px;
     background-color: black;
     
+}
+
+.carrouselReseñasDiv{
+    padding: 20px;
+    background-color: black;
+}
+
+.carousel-item{
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #f5f5f5;
+
+}
+
+.contadorDiv{
+    background-color: #a67b6a;
 }
 
 
