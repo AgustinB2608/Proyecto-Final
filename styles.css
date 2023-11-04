@@ -50,34 +50,43 @@ nav a:hover{
     color: #000000;
 }
 
+.fondo{
+    width: 1350px;
+    height: 500px;
+    background-image: url(./imgs/c4db724a-0976-4b76-a010-964f61acb82e\ \(1\).jpg);
+}
+
 
 #botonCotizacion{
-    background-color: #0ebb36;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    color: black;
+    background-color:#a67b6a ;
     width: 120px;
-    border: #000000;
-    color: white;
+    height: 80px;
+    border:(15px, solid, #f59393)  
 }
 
-.imagenCotizacion{
-    width: 800px;
-    height: 160px;
-    padding: 10px;
-    align-items: flex-end;
-    margin-left: 180px;
-}
-
-.solicitarCotizacion {
+    .solicitarCotizacion {
     border: whitesmoke;
-    display: flex;
-
+    display: inline;
     text-align: center;
     flex-flow: row wrap;
     justify-content: center;
     background-color:#c59886 ;
     align-items: center;
+
 }
 
-
+.leyenda{
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
 
 .catalogo {
     /* display: flex;
@@ -92,6 +101,12 @@ nav a:hover{
     margin-bottom: 20px;
     align-items: center;
 }
+
+.carousel slide{
+    width: 1350px;
+    height: 500px;
+}
+
 .fila {
     display: flex;
 }
