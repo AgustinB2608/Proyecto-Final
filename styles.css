@@ -102,11 +102,9 @@ nav a:hover{
     align-items: center;
 }
 .carouselSec{
-    width: 600px;
-    height: auto;
-    padding: 20px;
-    align-items: center;
-
+    width: 1350px;
+    height: 500px;
+    overflow: hidden;
 }
 .carousel slide{
     width: 1350px;
