@@ -15,7 +15,7 @@
 
 <body>
 
-    <header>
+    <header id="Inicio">
         <a href="#" class="logo">
             <img src="./imgs/logonuevo.png" alt="ICONO">
             <h2 class="Titulo">TAIMANÁ JOYAS</h2>  
@@ -32,47 +32,47 @@
 
     <main>
       <div class="fondo">
-        <p class="leyenda">"Las joyas que buscas en un solo lugar"</p>
+        <p class="leyenda">Las joyas que buscas en un solo lugar</p>
         <section class="solicitarCotizacion">
           <div >
             <button type="button" onclick="formularioCotizacion()" class="btn btn-success" id="botonCotizacion">Solicitar Cotizacion</button>
           </div>
         </section>
-      </div>
-          
+
+      </div>          
            <section class="catalogo">
             <div>
               <h1 class="tituloCatalogo">Titulo Catalogo</h1>
             </div>
-        <section class="carouselSec">
-          <div id="carouselCatalogo" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./imgs/anillos.webp" class="d-block w-100" alt="...">
+
+            <div id="carouselCataogo" class="carouselslide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./imgs/anillos.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imgs/aros.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imgs/cadena.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imgs/dijes.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imgs/pulsera.webp" class="d-block w-100" alt="...">
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="./imgs/aros.webp" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./imgs/cadena.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./imgs/dijes.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./imgs/pulsera.webp" class="d-block w-100" alt="...">
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </section>
+
             <div class="catalogo" id="catalogo">
               <div class="fila">
                   <div class="item">
@@ -202,8 +202,31 @@ Sabemos que nuestro pilar principal de nuestro crecimiento es nuestro capital hu
             
     </main>
 
-    <footer>
-      <p>FOOTER</p>
+    <footer class="footer">
+      <section class="navegacion">
+        <ul>
+          <li><a href="#Inicio">Inicio</li></a>
+          <li><a href="#catalogo">Catalogo</li></a>
+          <li><a href="#formulario">Cotizacion</li></a>
+        </ul>
+      </section>
+
+      <section class="Contacto" id="Contacto">
+        <ul>
+          <li>3517575391</li>
+          <li>taimana.joyas@gmail.com</li>
+          <li>Rio Ceballos, Cordoba.</li>
+        </ul>
+      </section>
+
+      <section class="masInfo">
+        <ul>
+          <h6>Redes sociales</h6>
+          <img src="./imgs/facebook.png" alt="facebook">
+          <img src="./imgs/instagram.png" alt="instagram">
+          <img src="./imgs/whatsapp.png" alt="whatsapp">
+        </ul>
+      </section>
 
     </footer>
 

@@ -101,14 +101,11 @@ nav a:hover{
     margin-bottom: 20px;
     align-items: center;
 }
-.carouselSec{
+
+#carruselCAtalogo{
     width: 1350px;
     height: 500px;
     overflow: hidden;
-}
-.carousel slide{
-    width: 1350px;
-    height: 500px;
 }
 
 .fila {
@@ -128,17 +125,6 @@ nav a:hover{
 .item img {
     width: 100%;
     height: auto;
-}
-
-footer {
-    background-color: #414141;
-    color: #000000;
-    text-align: center;
-    height: 120px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    border: 2px solid #f59393;
 }
 
 .sobreNosotros{
@@ -272,3 +258,28 @@ footer {
 }
 
 
+footer {
+    background-color: bisque;
+    color: #000000;
+    text-align: center;
+    height: 120px;
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center;
+    border: 2px solid #f59393;
+    padding: 20px;
+}
+
+.navegacion{
+    color: black;
+    text-align: start;
+}
+.Contacto{
+    color: black;
+    text-align: start;  
+}
+
+.masInfo{
+    height: 5px;
+    width: 5px;
+}
