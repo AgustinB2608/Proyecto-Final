@@ -5,13 +5,12 @@ body {
 
 header {
 
-    background-color: #a67b6a;
+    background-color: rgb(165, 122, 105);
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .Titulo {
@@ -50,11 +49,56 @@ nav a:hover{
     color: #000000;
 }
 
-.fondo{
-    width: 1350px;
-    height: 500px;
+.fondo-principal {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
     background-image: url(./imgs/c4db724a-0976-4b76-a010-964f61acb82e\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    position: relative;
+    z-index: -1;
 }
+
+.cartel {
+    margin-top: -950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(100, 74, 63);
+    height: 30px;
+    box-shadow: 0 10px 10px -10px rgba(255, 255, 255, 0.5);
+}
+
+.cartel p {
+    font-size: 18px;
+    margin: 0;
+    text-align: center; 
+    color: #f5f5f5;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.cartel-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 22, 19, 0.2); /* Color medio transparente */
+    width: 1600px;
+    height: 600px;
+    margin: 120px auto 0; /* Margen superior de 150px */
+    text-align: center;
+    position: relative;
+    border: 2px solid #000000;
+    border-radius: 10px;
+   
+}
+
+
 
 
 #botonCotizacion{
@@ -283,3 +327,22 @@ footer {
     height: 5px;
     width: 5px;
 }
+
+ .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    height: 50%;
+} 

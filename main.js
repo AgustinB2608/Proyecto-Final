@@ -22,5 +22,5 @@ function guardar(){
         celular,
         comentario
     }
-    console.log(persona);
+    console.log(persona);G
 }
