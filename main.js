@@ -8,6 +8,8 @@ var persona ={
     comentario
 }
 
+let contador = 0;
+
 function guardar(){
     let nombre = document.getElementById("nombreIngresado").value;
     let apellido = document.getElementById("apellidoIngresado").value;
@@ -34,11 +36,11 @@ function guardar(){
     console.log(persona);
 aumentarContador();
 }
-var contador = 0;
+
 
 function aumentarContador() {
-    contador++;
-    document.getElementById("counterJS").textContent = contador;
-    counterJS.textContent = contador;
+    contador++ ;
+    console.log(contador);
+    document.getElementById("contadorJS").innerHTML = contador;
+    // counterJS.textContent = contador;
 }
-
