@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(61, 57, 57);
+    /* background-color: rgb(61, 57, 57); */
     margin: 0;
 }
 
@@ -45,10 +45,6 @@ nav a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);   
 }
 
-nav a:hover{
-    color: #000000;
-}
-
 .fondo-principal {
     align-items: center;
     justify-content: center;
@@ -87,10 +83,10 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(31, 22, 19, 0.2); /* Color medio transparente */
+    background-color: rgba(31, 22, 19, 0.2); 
     width: 1600px;
     height: 600px;
-    margin: 120px auto 0; /* Margen superior de 150px */
+    margin: 120px auto 0; 
     text-align: center;
     position: relative;
     border: 2px solid #000000;
@@ -395,3 +391,172 @@ justify-content: center;
     transition: opacity .15s ease;
     height: 50%;
 } 
+
+/* ///////////////////////////////////////////////////////////////////////////Footer//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+footer {
+    background-color: #333;
+    color: black;
+    padding: 20px;
+  }
+  
+  .footerSec {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footerSec ul {
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .navegacion, .Contacto, .masInfo {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .navegacion h5, .Contacto h5, .masInfo h5 {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+  }
+  
+  .navegacion ul, .Contacto ul, .masInfo ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navegacion a, .Contacto a, .masInfo a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    margin: 0 30px;
+    transition: color 0.6s ease;
+  }
+  
+  .navegacion a:hover, .Contacto a:hover, .masInfo a:hover {
+    color: white;
+  }
+  
+  .Redes {
+    width: 18px;
+    height: 18px;
+  }
+
+
+/* ///////////////////////////////////////////////////////////////////////////Menu Chico//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.menu2 {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333; 
+    margin: 3px 0;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////Menu Grande//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu li {
+    margin: 10px 0; 
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+#menu a:hover {
+    color: #000000;
+     transition: color 0.6s ease;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////@media//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  @media (max-width: 430px) {
+
+/* ///////////////////////////////////////////////////////////////////////////Footer @//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+    .footerSec {
+      flex-direction: column; 
+    }
+  
+    .navegacion, .Contacto {
+      text-align: center;
+      flex: 1;
+    }
+  
+    .navegacion h5, .Contacto h5 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .navegacion a, .Contacto a {
+      text-decoration: none;
+      color: black;
+      display: block; 
+      margin: 10px 0; 
+    }
+    
+    .masInfo {
+      display: none; 
+    }
+    
+    .footerSec {
+      width: 100%; 
+    }
+    
+    .Redes {
+      width: 15px; 
+      height: 15px; 
+    }
+
+   /* ///////////////////////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+    header {
+        padding-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Titulo {
+        padding-left: 15px;
+    }
+
+    .logo img {
+        display: none;
+    }
+    
+    .Options-Nav{
+        display: none;
+    }
+
+    #menu {
+        display: none; 
+    }
+
+    .menu2 {
+        display: flex; 
+    }
+
+    #menu.active {
+        display: flex;
+    }
+
+  }
+  
+  
+  
