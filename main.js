@@ -1,12 +1,4 @@
 console.log('hola');
-var persona ={
-    nombre,
-    apellido,
-    sexo,
-    email,
-    celular,
-    comentario
-}
 
 let contador = 0;
 
@@ -41,6 +33,6 @@ aumentarContador();
 function aumentarContador() {
     contador++ ;
     console.log(contador);
-    document.getElementById("contadorJS").innerHTML = contador;
+    document.getElementById("contadorVentas").innerHTML = contador;
     // counterJS.textContent = contador;
 }
