@@ -117,8 +117,13 @@ nav a {
 }
 
 .text-secundary {
-    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    color:black;
     word-wrap:break-word;
+    font-size: 24px;
+    text-decoration:dashed;
+    font-weight: bold;
+
 }
 
 .button-catalogo {
@@ -176,15 +181,17 @@ nav a {
 .catalogo {
     /* display: flex;
     flex-wrap: wrap; */
+    padding: 20px;
     justify-content: space-between;
     background-color:#a78c82; 
 }
 
 .tituloCatalogo {
     text-align: center;
-    font-size: 24px;
+    font-size: 50px;
     margin-bottom: 20px;
     align-items: center;
+    text-decoration: underline;
 }
 
 .carousel-inner{
@@ -203,17 +210,18 @@ nav a {
 
 .item {
     width: (33.33% - 20px); /* Para que haya 3 fotos en una fila */
-    margin: 10px;
+    margin: 50px;
     background-color:#c59886;
     padding: 20px;
     text-align: center;
-    margin-left: 120px;
+    /* margin-left: 120px; */
 
 }
 
+
 .item img {
     width: 100%;
-    height: auto;
+    height: 240px;
 }
 
 .sobreNosotros{
@@ -272,13 +280,12 @@ nav a {
 
     width: 700px;
     height: 450px;
-    /* max-height:600px;
-    max-width: 900px; */
+    /* max-height:auto;
+    max-width: auto;  */
     /* display: flex; */
     background-color:rgb(243, 221, 188);
     border: 1px solid black;
     margin-left: 40px;
-
 }
 .formulario > h3 {
     display: flex;
@@ -325,10 +332,10 @@ justify-content: center;
     align-content: baseline ;
 }
 .imagenConNombre img {
-    border: 5px solid black;
+    border: 5px solid rgb(189, 167, 167);
     border-radius: 10px;
     /* padding: 20px; */
-    width: 100px;
+    width: 200px;
     height: auto;
     margin-left: 60px;
     margin-top: 50px;
