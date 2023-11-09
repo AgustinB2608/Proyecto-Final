@@ -111,7 +111,7 @@ nav a {
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
-    font-size: 100px;
+    font-size: 150px;
     color: #000000;
     margin: 0; 
 }
@@ -128,11 +128,11 @@ nav a {
 
 .button-catalogo {
     margin-top: 40px;
-    color: #fff; 
+    color: black; 
     border: 3px solid #e25e40; 
     background-color: transparent; 
     padding: 10px 20px; 
-    font-size: 24px; 
+    font-size: 40px; 
     font-family: 'Playfair Display', serif; 
     border-radius: 30px; 
     cursor: pointer; 
